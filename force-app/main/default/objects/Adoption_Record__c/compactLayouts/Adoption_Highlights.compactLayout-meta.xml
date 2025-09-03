@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adoption_Highlights</fullName>
+    <fields>Pet__c</fields>
+    <fields>Adopter__c</fields>
+    <fields>Adoption_Date__c</fields>
+    <fields>Pet_Status__c</fields>
+    <label>Adoption Highlights</label>
+</CompactLayout>

@@ -1,0 +1,63 @@
+<template>
+  <div style="background-color:#f8f8f8; min-height:100vh; padding:1rem;">
+    <c-pet-grid-filter onfilterchange={handleFilterChange}></c-pet-grid-filter>
+
+    <template if:true={isLoading}>
+      <lightning-spinner alternative-text="Loading pets" size="medium"></lightning-spinner>
+    </template>
+
+    <template if:false={isLoading}>
+      <template if:true={pets.length}>
+        <lightning-layout multiple-rows class="slds-wrap">
+          <template for:each={pets} for:item="pet">
+            <lightning-layout-item key={pet.Id} size="3" padding="around-small">
+              <lightning-card title={pet.Name} icon-name="utility:animal_and_nature">
+                <div class="image-container">
+                  <lightning-formatted-rich-text value={pet.Pet_Image__c}></lightning-formatted-rich-text>
+                </div>
+                <div class="slds-var-p-around_medium card-content">
+                  <p>{pet.Description__c}</p>
+                  <lightning-button
+                    variant="brand"
+                    label="Adopt Now"
+                    title="Adopt Now"
+                    onclick={handleAdoptNow}
+                    data-id={pet.Id}>
+                  </lightning-button>
+                </div>
+              </lightning-card>
+            </lightning-layout-item>
+          </template>
+        </lightning-layout>
+      </template>
+
+      <template if:false={pets.length}>
+        <div class="slds-text-heading_medium slds-align_absolute-center slds-var-m-top_large">
+          No pets found matching your criteria 🐾
+        </div>
+      </template>
+    </template>
+
+    <!-- FLOW MODAL POPUP -->
+    <template if:true={showFlow}>
+      <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+          <header class="slds-modal__header">
+            <h2 class="slds-text-heading_medium">Complete Adoption</h2>
+          </header>
+          <div class="slds-modal__content slds-p-around_medium">
+            <lightning-flow
+              flow-api-name="Pet_Adoption_Form"
+              flow-input-variables={inputVariables}
+              onstatuschange={handleFlowStatusChange}>
+            </lightning-flow>
+          </div>
+          <footer class="slds-modal__footer">
+            <lightning-button variant="neutral" label="Cancel" onclick={handleCloseFlow}></lightning-button>
+          </footer>
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+  </div>
+</template>

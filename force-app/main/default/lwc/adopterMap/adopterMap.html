@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Adopter Location Map">
+        <template if:true={mapMarkers}>
+            <lightning-map
+                map-markers={mapMarkers}
+                zoom-level="14"
+                markers-title="Adopter Location">
+            </lightning-map>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+    </lightning-card>
+</template>

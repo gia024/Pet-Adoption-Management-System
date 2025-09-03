@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_must_be_a_positive_whole_number</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+  Age__c &lt;= 0,
+  MOD(Age__c, 1) &lt;&gt; 0
+)</errorConditionFormula>
+    <errorMessage>Age must be a positive whole number.</errorMessage>
+</ValidationRule>

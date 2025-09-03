@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>select_a_breed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(TEXT(Breed__c))</errorConditionFormula>
+    <errorMessage>Please select a breed.</errorMessage>
+</ValidationRule>

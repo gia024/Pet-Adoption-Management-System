@@ -1,0 +1,60 @@
+<template>
+  <div class="slds-box slds-theme_default" style="background-color: #f8f8f8;">
+    <div class="slds-grid slds-wrap slds-gutters">
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+        <lightning-combobox
+          name="selectedBreed"
+          label="Breed"
+          value={selectedBreed}
+          options={breedOptions}
+          onchange={handleInputChange}>
+        </lightning-combobox>
+      </div>
+
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+        <lightning-combobox
+          name="selectedGender"
+          label="Gender"
+          value={selectedGender}
+          options={genderOptions}
+          onchange={handleInputChange}>
+        </lightning-combobox>
+      </div>
+
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+        <lightning-input
+          type="number"
+          name="minAge"
+          label="Min Age"
+          value={minAge}
+          onchange={handleInputChange}>
+        </lightning-input>
+      </div>
+
+      <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+        <lightning-input
+          type="number"
+          name="maxAge"
+          label="Max Age"
+          value={maxAge}
+          onchange={handleInputChange}>
+        </lightning-input>
+      </div>
+
+      <div class="slds-col slds-size_1-of-1 slds-align_absolute-center slds-m-top_medium">
+        <lightning-button
+          variant="brand"
+          label="Apply Filters"
+          onclick={handleFilterClick}>
+        </lightning-button>
+
+        <lightning-button
+          variant="neutral"
+          label="Clear Filters"
+          class="slds-m-left_small"
+          onclick={handleClearClick}>
+        </lightning-button>
+      </div>
+    </div>
+  </div>
+</template>

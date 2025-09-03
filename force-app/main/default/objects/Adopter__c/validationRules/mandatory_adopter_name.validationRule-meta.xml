@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mandatory_adopter_name</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Adopter_Email__c )</errorConditionFormula>
+    <errorDisplayField>Adopter_Email__c</errorDisplayField>
+    <errorMessage>Adopter&apos;s Email is mandatory</errorMessage>
+</ValidationRule>

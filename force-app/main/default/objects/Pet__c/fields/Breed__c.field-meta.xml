@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Breed__c</fullName>
+    <label>Breed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Akita</fullName>
+                <default>false</default>
+                <label>Akita</label>
+            </value>
+            <value>
+                <fullName>Alaskan Malamute</fullName>
+                <default>false</default>
+                <label>Alaskan Malamute</label>
+            </value>
+            <value>
+                <fullName>American Cocker Spaniel</fullName>
+                <default>false</default>
+                <label>American Cocker Spaniel</label>
+            </value>
+            <value>
+                <fullName>Anatolian Shepherd</fullName>
+                <default>false</default>
+                <label>Anatolian Shepherd</label>
+            </value>
+            <value>
+                <fullName>Australian Shepherd</fullName>
+                <default>false</default>
+                <label>Australian Shepherd</label>
+            </value>
+            <value>
+                <fullName>Basenji</fullName>
+                <default>false</default>
+                <label>Basenji</label>
+            </value>
+            <value>
+                <fullName>Beagle</fullName>
+                <default>false</default>
+                <label>Beagle</label>
+            </value>
+            <value>
+                <fullName>Bernese Mountain Dog</fullName>
+                <default>false</default>
+                <label>Bernese Mountain Dog</label>
+            </value>
+            <value>
+                <fullName>Bichon Frise</fullName>
+                <default>false</default>
+                <label>Bichon Frise</label>
+            </value>
+            <value>
+                <fullName>Border Collie</fullName>
+                <default>false</default>
+                <label>Border Collie</label>
+            </value>
+            <value>
+                <fullName>Boxer</fullName>
+                <default>false</default>
+                <label>Boxer</label>
+            </value>
+            <value>
+                <fullName>Bulldog</fullName>
+                <default>false</default>
+                <label>Bulldog</label>
+            </value>
+            <value>
+                <fullName>Bullmastiff</fullName>
+                <default>false</default>
+                <label>Bullmastiff</label>
+            </value>
+            <value>
+                <fullName>Cane Corso</fullName>
+                <default>false</default>
+                <label>Cane Corso</label>
+            </value>
+            <value>
+                <fullName>Chihuahua</fullName>
+                <default>false</default>
+                <label>Chihuahua</label>
+            </value>
+            <value>
+                <fullName>Cocker Spaniel</fullName>
+                <default>false</default>
+                <label>Cocker Spaniel</label>
+            </value>
+            <value>
+                <fullName>Dachshund</fullName>
+                <default>false</default>
+                <label>Dachshund</label>
+            </value>
+            <value>
+                <fullName>Doberman Pinscher</fullName>
+                <default>false</default>
+                <label>Doberman Pinscher</label>
+            </value>
+            <value>
+                <fullName>German Shepherd</fullName>
+                <default>false</default>
+                <label>German Shepherd</label>
+            </value>
+            <value>
+                <fullName>Golden Retriever</fullName>
+                <default>false</default>
+                <label>Golden Retriever</label>
+            </value>
+            <value>
+                <fullName>Great Dane</fullName>
+                <default>false</default>
+                <label>Great Dane</label>
+            </value>
+            <value>
+                <fullName>Kuvasz</fullName>
+                <default>false</default>
+                <label>Kuvasz</label>
+            </value>
+            <value>
+                <fullName>Labrador Retriever</fullName>
+                <default>false</default>
+                <label>Labrador Retriever</label>
+            </value>
+            <value>
+                <fullName>Maltese</fullName>
+                <default>false</default>
+                <label>Maltese</label>
+            </value>
+            <value>
+                <fullName>Medium Breeds</fullName>
+                <default>false</default>
+                <label>Medium Breeds</label>
+            </value>
+            <value>
+                <fullName>Newfoundland</fullName>
+                <default>false</default>
+                <label>Newfoundland</label>
+            </value>
+            <value>
+                <fullName>Papillon</fullName>
+                <default>false</default>
+                <label>Papillon</label>
+            </value>
+            <value>
+                <fullName>Pomeranian</fullName>
+                <default>false</default>
+                <label>Pomeranian</label>
+            </value>
+            <value>
+                <fullName>Rottweiler</fullName>
+                <default>false</default>
+                <label>Rottweiler</label>
+            </value>
+            <value>
+                <fullName>Saint Bernard</fullName>
+                <default>false</default>
+                <label>Saint Bernard</label>
+            </value>
+            <value>
+                <fullName>Shih Tzu</fullName>
+                <default>false</default>
+                <label>Shih Tzu</label>
+            </value>
+            <value>
+                <fullName>Siberian Husky</fullName>
+                <default>false</default>
+                <label>Siberian Husky</label>
+            </value>
+            <value>
+                <fullName>Toy Poodle</fullName>
+                <default>false</default>
+                <label>Toy Poodle</label>
+            </value>
+            <value>
+                <fullName>Whippet</fullName>
+                <default>false</default>
+                <label>Whippet</label>
+            </value>
+            <value>
+                <fullName>Yorkshire Terrier</fullName>
+                <default>false</default>
+                <label>Yorkshire Terrier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
