@@ -205,7 +205,6 @@
     </flowAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Pet Manager Access</label>
-    <license>Salesforce Platform</license>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
