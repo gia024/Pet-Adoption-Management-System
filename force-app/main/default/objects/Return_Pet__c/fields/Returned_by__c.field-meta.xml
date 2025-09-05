@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Returned_by__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
     <label>Returned by</label>
     <referenceTo>Adopter__c</referenceTo>
     <relationshipLabel>Return Pets</relationshipLabel>

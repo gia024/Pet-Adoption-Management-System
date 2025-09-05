@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Pet_Post_Control</label>
+    <protected>false</protected>
+    <values>
+        <field>Facebook_Page_Access_Token__c</field>
+        <value xsi:type="xsd:string">EAAJcNe2YazUBPLKpH5ZBo9gRPrD6jtQuFFJkQkPrA3wJuuXABQOXSnZA3CeAVea0EaqMdL2l28HOABqJWAdZAaK1otcTciXrgjFWa21X06WF67YNLS54HIUBQSPS48QyU9wvrcEOadLCfmubImslhBlDnbfhzjCBrZBZBjon8mtNRLKAJRGxtIqCtSz5crlQb2j4nCCec</value>
+    </values>
+    <values>
+        <field>Facebook_Page_Id__c</field>
+        <value xsi:type="xsd:string">727229410481397</value>
+    </values>
+    <values>
+        <field>Post_to_Facebook__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Adoption_Status</fullName>
+        <field>Adoption_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Adoption Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_Pet_Adopted</fullName>
+        <field>Status__c</field>
+        <literalValue>Adopted</literalValue>
+        <name>Mark Pet Adopted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Mark_Pet_as_Adopted</fullName>
+        <field>Status__c</field>
+        <literalValue>Adopted</literalValue>
+        <name>Mark Pet as Adopted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Adoption_Status_to_Approved</fullName>
+        <field>Adoption_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Set Adoption Status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

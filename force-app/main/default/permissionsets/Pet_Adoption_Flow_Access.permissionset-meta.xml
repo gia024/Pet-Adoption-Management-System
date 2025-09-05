@@ -6,5 +6,4 @@
     </flowAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Pet Adoption Flow Access.</label>
-    <license>Salesforce</license>
 </PermissionSet>
