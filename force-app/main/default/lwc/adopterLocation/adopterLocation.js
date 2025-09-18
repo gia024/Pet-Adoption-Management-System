@@ -1,4 +1,3 @@
-// adopterLocationMap.js
 import { LightningElement, api } from 'lwc';
 import { loadScript } from 'lightning/platformResourceLoader';
 import MAP_API from '@salesforce/resourceUrl/leaflet'; // Or use Google Maps API

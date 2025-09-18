@@ -3,6 +3,7 @@
     <fullName>Pet__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Links to the Pet record</description>
+    <externalId>false</externalId>
     <label>Pet</label>
     <referenceTo>Pet__c</referenceTo>
     <relationshipLabel>Health Records</relationshipLabel>
